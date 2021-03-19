@@ -1,0 +1,107 @@
+header{ /* header of website */
+    background: rgb(36, 36, 36);
+    color: rgb(209, 209, 209);
+    margin: 0;
+    padding: 15px 15px 5px 15px;
+    font-family: fantasy;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+    
+}
+
+
+body {
+    margin: 0;
+    height: auto;
+    background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Don_Cheadle_-_2018.jpg/220px-Don_Cheadle_-_2018.jpg"), url("https://thumbs.dreamstime.com/b/hot-flame-text-isolated-white-background-isolated-vector-illustration-abstract-flame-top-hot-text-promotional-176994532.jpg");
+    background-color: #cccccc;
+    height: 1000px;
+    background-position: center;
+    background-repeat:no-repeat, repeat;
+    background-size: cover, 100px;
+
+    font-family:Arial;
+    color: rgb(110, 110, 110);
+    
+}
+
+header h1 {
+    margin: 0;
+    display: inline;
+}
+
+nav {
+    margin: 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0 0 0 15px;
+    display: inline;
+}
+
+nav ul li{
+    background: black;
+    color: white;
+    display: inline-block;
+    list-style-type: none;
+    padding: 5px 15px;
+    margin: 0;
+}
+
+nav ul li a{
+    color: lightblue;
+    
+}
+
+nav img{
+    background: darkslategray;
+    padding: 10px 20px;
+    width: 400px;
+    height: auto;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+    
+    
+}
+
+.row:after {
+    clear: both;
+}
+
+.col{
+    background: #333;
+    border-radius: 5px;
+    padding: 10px .5%;
+    margin: .5%;
+    float: left;
+    color: black;
+    width: 31%;
+}
+
+footer{
+    clear: both;
+}
+
+
+a {
+    color: rgb(0, 136, 11);
+}
+
+p{
+    background: silver;
+    color: darkslategray;
+    padding: 10px 5px;
+    width: 600px;
+}
+
+.secondary {
+    background: none;
+    width: 800px;
+    cursor:grab;
+}
+
